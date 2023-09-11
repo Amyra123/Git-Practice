@@ -14,6 +14,6 @@
 
 8. git commit -> commit is a particular version of the project. It captures a snapshot of the project's staged changes and creates a version out of it.
 
-9. git log -> lists down all the commits that have been made in the repository.
+9. git log -> lists down all the commits that have been made in the repository. Use `q` to exit the log area.
 
 10. git restore <file> -> If we did some dirty piece of code, and we want to delete all of it. We can simply restore the last staged clean version of the file using this command.

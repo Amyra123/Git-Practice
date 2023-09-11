@@ -17,3 +17,15 @@
 9. git log -> lists down all the commits that have been made in the repository. Use `q` to exit the log area.
 
 10. git restore <file> -> If we did some dirty piece of code, and we want to delete all of it. We can simply restore the last staged clean version of the file using this command.
+
+11. git restore --staged <file> -> it removes file changes from staging area to the working area.
+
+12. diff btw git rm and git restore -> If you want to remove an already tracked file from the project alltogether, we do git rm. This will track the removal of the file in the next commit until and unless this change (file deleted) is restored. Whereas git restore helps us to either remove all the dirty changes present in the working area and restore the last staged version/commited version of the file. Or it helps us to move the staged changes back to the working area.
+
+Recommended practice-
+
+1. make changes
+2. git add <file>
+3. git commit 
+4. git pull
+5. git push

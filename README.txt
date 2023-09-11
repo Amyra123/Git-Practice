@@ -7,3 +7,13 @@
 4. "Staging area" -> What all files are going to be a part of the next version that we will create. This staging area is the place where git knows what changes will be done from the last version to the next version.
 
 5. "Repository Area" -> This area contains the details of all your previous registered versions. And the files in this area, git already manages them and knows there version history.
+
+6. git add <file> -> moves the file from working area to the staging area.
+
+7. git rm --cached <file> -> moves the file back from staging area to the working area.
+
+8. git commit -> commit is a particular version of the project. It captures a snapshot of the project's staged changes and creates a version out of it.
+
+9. git log -> lists down all the commits that have been made in the repository.
+
+10. git restore <file> -> If we did some dirty piece of code, and we want to delete all of it. We can simply restore the last staged clean version of the file using this command.
